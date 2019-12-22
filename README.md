@@ -1,4 +1,4 @@
-## Project: Extend Scikit-Learn with Yinyang K-Means 
+# Project: Extend Scikit-Learn with Yinyang K-Means 
 
 ## Project Description:
 Scikit-Learn is an open-source Machine Learning library for Python, widely used. The goal of this project is to extend Scikit-Learn by adding Yinyang K-Means into it as an alternative to the KMeans algorithm in Scikit-Learn.
