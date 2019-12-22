@@ -6,10 +6,10 @@ Yinyang K-Means is an optimized KMeans algorithm. By clearly applying triangle i
 
 A version of Yinyang K-Means implemented by the authors of the research paper is available here (http://research.csc.ncsu.edu/nc-caps/yykmeans.tar.bz2).
 
-## The main contribution of this work: 
-* cleaned up Guoyang's implementation
-* mentioned that there are still some bugs need to be fixed as the results are not consistent with the standard KNN in CuML.
-* However, according to the other students, Guoyang's code can be executed successfully on all the datasets. There is a slight chance that Ben's optimization to the code breaks Guoyang's code.
+## Comments of this Repo:
+* The implementation of yingyang k-means in scikit-learn gives an average 2-3X speedup when k is large (e.g., 64). When k is small (e.g., 4 or 16), it is even slower than the baselines.
+* Only tested on two small datasets.  
+* Refer to README.txt for details on how to install the implementation. 
 
 ## Project Requirement
 1) Create a local branch of the git repository of scikit-learn, in which, you can develop your code by adding Yinyang K-Means into the class sklearn.cluster.KMeans in Scikit-Learn. There are two changes to the interface of the class:
